@@ -1,0 +1,97 @@
+body{
+    
+    background: url('https://wallpapers.com/images/hd/colorful-space-1500-x-1000-wallpaper-0uetadmbh3pko943.jpg') no-repeat ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+     
+}
+h2 {
+    color: #181518;
+}
+p {
+    color: aqua;
+}
+.logo{
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    
+}
+
+
+header{
+    background: url("space2.jpg") no-repeat ;
+    background-size: cover;
+    min-height: fit-content;
+ }
+
+ header nav{
+    padding: 20px 40px 20px 100px ;
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+    align-items: center;
+}
+
+header nav .nav-right a {
+  text-decoration: none;
+  color: white;
+  margin-right: 20px;
+  position: relative;
+} 
+
+header nav .nav-right a::after {
+   content: '';
+   position: absolute;
+   left: 0;
+   bottom: -10px;
+   width: 0;
+   height: 2px;
+   background: white;
+   transition: width .3s ease-in-out;
+  } 
+
+  header nav .nav-right a:hover::after{
+    width: 70%;
+  }
+
+  header nav .nav-right a.active:after{
+    width: 70%;
+  }
+
+  .missions-content {
+    background-color: #181518;
+  }
+
+
+
+
+.About {
+    height: 100vh;
+    
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    
+}
+
+.aboutcontent p {
+    color: red;
+    font-size: 18px;
+    margin: 20px 0 40px;
+}
+
+.aboutcontent{
+    max-width: 600px;
+}
+
+.aboutcontent h1{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: black;
+}
